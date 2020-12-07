@@ -2,6 +2,7 @@ module.exports = {
 	'apps': [
 		{
 		'name': 'app2',
+		'watch': '.',
 		'script': './bin/www', //改成
 		'instances': 'max',
 		'exec_mode': 'cluster',
